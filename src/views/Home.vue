@@ -1,6 +1,7 @@
+<div>MyHome</div>
 <template>
   <div id="nav">
-    <el-form v-if="!loginState" :model="loginForm" :inline="true">
+    <el-form v-if="!loginState" :model="loginForm" :inline="false">
       <el-form-item label="Email address" size="medium">
         <el-input v-model="loginForm.username"></el-input>
       </el-form-item>
